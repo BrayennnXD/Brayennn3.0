@@ -1673,7 +1673,7 @@ def reguler3(idf,pwv):
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
 	ses = requests.Session()
-	prog.update(des,description=f"{h}Mbeta{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
+	prog.update(des,description=f"{h}Free{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
 	prog.advance(des) 
 	for pw in pwv:
 		try:
