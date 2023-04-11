@@ -88,7 +88,7 @@ for t in range(10000):
 	d=random.randrange(73,100)
 	e=random.randrange(4200,4900)
 	f=random.randrange(40,150)
-	random1=random.choice(['SM-A315G','SM-A405FN','SM-J610FN','SM-X11O','SM-Q130A','SM-J610G'])
+	random1=random.choice(['SM-G531H','SM-A405FN','CPH2109','SM-X11O','SM-Q130A','SM-J610G'])
 	brayen1=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{d}.0.{e}.{f} Mobile Safari/537.36'
 	brayen2=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{d}.0.{e}.{f} Mobile Safari/537.36 OPR/60.0.2254.59405'
 	uaku2 = random.choice([brayen1,brayen2])
