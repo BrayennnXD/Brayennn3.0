@@ -82,15 +82,17 @@ for xd in range(10000):
 
 #------------[ UBAH UA DIH SINI OM ]---------------#
 for t in range(10000):
-	a=random.choice(['3','4','5','6','7','8','9','10','11','12','13'])
+	a=random.choice(['3','4','5','6','7','8','9','10','11','12'])
 	b=random.choice(['OPM1','TP1A','RP1A','PPR1','PKQ1','QP1A','SP1A','RKQ1'])
 	c=random.randrange(111111,210000)
-	d=random.randrange(73,100)
-	e=random.randrange(4200,4900)
-	f=random.randrange(40,150)
-	random1=random.choice(['SM-G531H','SM-A405FN','CPH2109','SM-X11O','SM-Q130A','SM-J610G'])
-	brayen1=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{d}.0.{e}.{f} Mobile Safari/537.36'
-	brayen2=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{d}.0.{e}.{f} Mobile Safari/537.36 OPR/60.0.2254.59405'
+	d=random.randrange(11,19)
+	e=random.randrange(73,100)
+	f=random.randrange(4200,4900)
+	g=random.randrange(40,150)
+	random1=random.choice(['SM-M236B','SM-A037G','SM-J701MT','SM-A115U','SM-G610M','SM-J530F','SM-A307FN','SM-A405FN'])
+	random2=random.choice(['SM-J415N','SM-R765T','SM-A730F','SM-A605G','SM-J610F','SM-N9750','SM-G935A'])
+	brayen1=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	brayen2=f'Mozilla/5.0 (Linux; Android {a}; {random2} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
 	uaku2 = random.choice([brayen1,brayen2])
 	ugen.append(uaku2)
 		
