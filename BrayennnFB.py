@@ -926,7 +926,7 @@ class sxp_wa:
 		self.wa_otp_4(nomor)
 		self.wa_otp_5(nomor)
 		self.wa_otp_6(nomor)
-		cetak(panel(f" Sukses Spam WA Ke No : {K2}+62{nomor}",width=90,padding=(0,2),style=f"bold white"))
+		cetak(panel(f" Sukses Spam WA Ke No : +62{nomor}",width=90,padding=(0,2),style=f"bold white"))
 	
 ###----------[ DUMP PENGIKUT ]---------- ###
 def pengikut():
